@@ -5,8 +5,81 @@
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
 }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* common */
+
+.container {
+    width: 70%;
+}
+
+.relative {
+    position: relative;
+}
+
+.hearths:hover {
+    color: red;
+}
+
+.hearths {
+    background-color: white;
+    font-size: 35px;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    padding: 0px 10px;
+    border: none;
+}
+
+.red {
+    position: absolute;
+    bottom: 115px;
+    background-color: red;
+    padding: 5px 10px;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.green {
+    position: absolute;
+    bottom: 115px;
+    left: 65px;
+    background-color: green;
+    padding: 5px 10px;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.close {
+    left: 10px;
+}
+
+.red-text {
+    color: red;
+    text-decoration: none;
+}
+
+.line {
+    text-decoration: line-through;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: 100;
+    margin-top: 2px;
+}
+
 
 /* header */
 
@@ -27,18 +100,29 @@ header {
 
 .row {
     display:flex ;
-    justify-content: center;
-    width: 80%;
-    background-color: red;
     flex-wrap: wrap;
 }
 
 .col {
-    background-color: aqua;
-    min-height: 100px;
     width: calc(100% / 3);
-    padding: 30px;
-    border: 1px solid black;
+    margin: 0 0 50px 0;
+}
+
+.card img {
+    display: block;
+}
+
+.card .img-b,
+.card:hover .img-a {
+    display: none;
+}
+
+.card:hover .img-b {
+    display: block;
+}
+
+.card {
+   padding: 10px;
 }
 
 /* /main */
