@@ -103,6 +103,10 @@ h3 {
     margin-top: 2px;
 }
 
+h5, h6 {
+    color: white;
+}
+
 /* header */
 
 header {
@@ -162,8 +166,22 @@ header {
 /* footer */
 
 footer {
-    min-height: 100px;
-    background-color: chartreuse;
+    background-color: #1a1a1a;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
 }
+
+.footer-l-i {
+    margin: 10px 10px 0 0;
+}
+
+/* .footer-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+} */
+
 
 /* /footer */
