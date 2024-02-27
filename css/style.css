@@ -147,12 +147,12 @@ header {
     display: block;
 }
 
-.card .img-b,
-.card:hover .img-a {
+.card-image .img-b,
+.card-image:hover .img-a {
     display: none;
 }
 
-.card:hover .img-b {
+.card-image:hover .img-b {
     display: block;
 }
 
